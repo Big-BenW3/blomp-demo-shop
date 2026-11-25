@@ -28,7 +28,7 @@ export default function HomePage() {
                 setAdded(p.name);
               }}
             >
-              Add to cart
+              Add to carts
             </button>
           </li>
         ))}
