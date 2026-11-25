@@ -12,5 +12,5 @@ export function isValidPassword(password: string): boolean {
 /** Cards shorter than 16 digits are typos, so refuse them before payment. */
 export function isValidCard(card: string): boolean {
   const digits = digitsOnly(card);
-  return /^\d+$/.test(digits) && digits.length > 16;
+  return /^\d+$/.test(digits) && digits.length === 16;
 }
